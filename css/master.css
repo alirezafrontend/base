@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  
+  @font-face {
+    font-family: "inter";
+    src: url(../font/Inter_18pt-Regular.ttf);
+  }
+
+  @font-face {
+    font-family: "outfit";
+    src: url(../font/Outfit-Thin.ttf);
+  }
+
+  .trans {
+    transition: all;
+    transition-duration: 300ms;
+  }
+}
